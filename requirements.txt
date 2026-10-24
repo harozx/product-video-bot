@@ -1,0 +1,21 @@
+# === Core ===
+fastapi==0.115.*
+uvicorn[standard]==0.34.*
+python-dotenv==1.1.*
+aiosqlite==0.21.*
+httpx==0.28.*
+
+# === Telegram Bot ===
+python-telegram-bot==21.*
+
+# === Google AI (Gemini + Veo) ===
+google-genai>=1.0
+
+# === Images (FFmpeg must be on PATH for video) ===
+Pillow>=9.2,<11.0
+
+# === Storage (Cloudflare R2) ===
+boto3==1.36.*
+
+# === Scheduling ===
+APScheduler==3.11.*

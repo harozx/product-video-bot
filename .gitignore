@@ -1,0 +1,33 @@
+# Environment
+.env
+credentials/
+*.json
+!package.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+venv/
+.venv/
+
+# Data
+data/
+music/
+*.db
+
+# Logs and test cache
+*.log
+.pytest_cache/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node (dashboard)
+node_modules/
+dist/
